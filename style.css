@@ -1,0 +1,57 @@
+body {
+    background-color: 
+    rgba(160, 193, 221, 0.76) ;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle, .post_title {
+    color: rgb(180, 56, 56);
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline ;
+    color: brown;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-top: 15px;
+}
+.post {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.post_contest {
+    margin: 0%;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+.post_imagem {
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 1px black;
+    width:  100%;
+}
+.ornitorrinco { 
+    border: 2px black;
+    border-radius: 15px;
+}
+.constacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.constacts_list li a {
+text-decoration: none;
+color:blue
+}
